@@ -1,6 +1,6 @@
-## Foundry
+## CoinCraft
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+**CoinCraft 花式发币法**
 
 Foundry consists of:
 
