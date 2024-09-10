@@ -1,0 +1,9 @@
+# Start of Selection
+# 忽略库文件和环境变量文件
+lib/
+.env
+# 其他常规配置
+out/
+*.log
+*.tmp
+# End of Selection
