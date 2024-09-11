@@ -1,15 +1,14 @@
 
-# 固定总量代币
+# Fixed Supply Token
 
-固定总量代币是最基础的ERC20代币,包含了代币名称,代币缩写,精度和发型总量四个基本信息.
+A fixed supply token is the most basic ERC20 token, which includes four basic pieces of information: token name, token symbol, decimals, and total supply.
 
-## 合约
+## Contract
 
-[固定总量代币: ERC20FixedSupply.sol](../src/ERC20/ERC20FixedSupply.sol)
+[Fixed Supply Token: ERC20FixedSupply.sol](../src/ERC20/ERC20FixedSupply.sol)
 
-## 测试
+## Tests
 
-## 调用方法
+## Method Calls
 
-## 部署
-
+## Deployment
