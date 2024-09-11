@@ -4,6 +4,7 @@ pragma solidity ^0.8.24;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 // Fixed supply token
+// A fixed supply token is a basic ERC20 token that includes the token name, symbol, decimals, and total supply.
 contract ERC20FixedSupply is ERC20 {
     constructor(
         string memory name, // Token name
