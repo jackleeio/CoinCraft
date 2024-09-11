@@ -10,11 +10,13 @@ contract ERC20WithBurnable is ERC20, ERC20Burnable {
     // Constructor for the burnable ERC20 token
     // Initializes the token with a name, symbol, decimals, and total supply
     constructor(
-        string memory name,      // The name of the token
-        string memory symbol,    // The symbol of the token
-        uint8 decimals,          // The number of decimals for the token
-        uint256 totalSupply      // The total supply of the token
+        string memory name, // The name of the token
+        string memory symbol, // The symbol of the token
+        uint8 decimals, // The number of decimals for the token
+        uint256 totalSupply // The total supply of the token
     ) ERC20(name, symbol) {
-        _mint(msg.sender, totalSupply * (10**uint256(decimals))); // Mint the total supply to the contract deployer
+        _mint(msg.sender, totalSupply * (10 ** uint256(decimals))); // Mint the total supply to the contract deployer
     }
+
+    // The ERC20Burnable contract implements two functions, burn and burnFrom, which are used to destroy tokens and to destroy tokens through authorization, respectively.
 }
