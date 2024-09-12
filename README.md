@@ -15,3 +15,4 @@ This repository studies token issuance techniques and economic models. It is a t
 - [Fixed Supply Token](./readme/ERC20FixedSupply.md)
 - [Mintable Token](./readme/ERC20Mintable.md)
 - [Burnable Token](./readme/ERC20Burnable.md)
+- [Capped Token](./readme/ERC20WithCapped.md)
