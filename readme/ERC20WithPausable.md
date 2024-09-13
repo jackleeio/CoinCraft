@@ -40,8 +40,6 @@ The ERC20WithPausable contract inherits from both ERC20 and ERC20Pausable. Here 
 6. `approve(address spender, uint256 amount)`: Approves the specified address to spend a certain amount of tokens.
 7. `allowance(address owner, address spender)`: Returns the remaining number of tokens that the spender is allowed to spend on behalf of the owner.
 
-Note: The `pause()` and `unpause()` functions are not implemented in the current contract. You need to add these functions with appropriate access control (e.g., using OpenZeppelin's `Ownable` or `AccessControl`) to make the contract fully functional.
-
 ## Deployment
 
 To deploy the ERC20WithPausable token using Foundry, follow these steps:
