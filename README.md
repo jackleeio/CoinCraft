@@ -16,3 +16,4 @@ This repository studies token issuance techniques and economic models. It is a t
 - [Mintable Token](./readme/ERC20Mintable.md)
 - [Burnable Token](./readme/ERC20Burnable.md)
 - [Capped Token](./readme/ERC20WithCapped.md)
+- [Pausable Token](./readme/ERC20WithPausable.md)
