@@ -81,7 +81,7 @@ To deploy the ERC20WithPausable token using Foundry, follow these steps:
 4. Run the following command to deploy:
 
    ```
-   forge script script/ERC20WithPausable.s.sol:DeployERC20WithPausable --rpc-url $RPC_URL --broadcast --verify
+   forge script script/ERC20/ERC20WithPausable.s.sol:DeployERC20WithPausable --rpc-url $RPC_URL --broadcast --verify
    ```
 
 5. After deployment, you will see the deployed contract address in the console output. Save this address for future use.
