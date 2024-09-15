@@ -12,9 +12,9 @@ This repository studies token issuance techniques and economic models. It is a t
 
 ## Issuing ERC20 Tokens
 
-- [Fixed Supply Token](./docs/ERC20FixedSupply.md)
-- [Mintable Token](./docs/ERC20Mintable.md)
-- [Burnable Token](./docs/ERC20Burnable.md)
-- [Capped Token](./docs/ERC20WithCapped.md)
-- [Pausable Token](./docs/ERC20WithPausable.md)
-- [Timelock Token](./docs/ERC20WithTimelock.md)
+- [Fixed Supply Token](./docs/en/ERC20FixedSupply.md)
+- [Mintable Token](./docs/en/ERC20Mintable.md)
+- [Burnable Token](./docs/en/ERC20WithBurnable.md)
+- [Capped Token](./docs/en/ERC20WithCapped.md)
+- [Pausable Token](./docs/en/ERC20WithPausable.md)
+- [Timelock Token](./docs/en/ERC20WithTimelock.md)
