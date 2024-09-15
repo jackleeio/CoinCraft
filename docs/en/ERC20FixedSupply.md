@@ -13,7 +13,7 @@ A fixed supply token is the most basic ERC20 token, which includes four basic pi
 
 ## Contract
 
-[Fixed Supply Token: ERC20FixedSupply.sol](../src/ERC20/ERC20FixedSupply.sol)
+[Fixed Supply Token: ERC20FixedSupply.sol](../../src/ERC20/ERC20FixedSupply.sol)
 
 ## Tests
 

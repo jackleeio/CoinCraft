@@ -12,7 +12,7 @@ A capped token is a type of mintable token that has a maximum minting limit set.
 
 ## Contract
 
-[Capped Token: ERC20WithCapped.sol](../src/ERC20/ERC20WithCapped.sol)
+[Capped Token: ERC20WithCapped.sol](../../src/ERC20/ERC20WithCapped.sol)
 
 ## Tests
 

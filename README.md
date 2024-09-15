@@ -1,6 +1,6 @@
 :globe_with_meridians:	**[中文](./README_ZH.md) / [English](./cache/README.md)** :globe_with_meridians:	
 
-# Coin Craft 铸币工艺
+# Coin Craft
 
 Twitter: [Jack Lee](https://x.com/jackleeio)｜[Conflux DAO](https://x.com/ConfluxDAO)
 
@@ -12,7 +12,7 @@ All code and tutorials are open source on GitHub: https://github.com/jackleeio/C
 
 This repository studies token issuance techniques and economic models. It is a token contract library based on OpenZeppelin, which works with the Forge toolchain to quickly create various economic model tokens.
 
-## Issuing ERC20 Tokens
+## ERC20 Tokens
 
 - [Fixed Supply Token](./docs/en/ERC20FixedSupply.md)
 - [Mintable Token](./docs/en/ERC20Mintable.md)

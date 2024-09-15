@@ -12,7 +12,7 @@ Twitter: [Jack Lee](https://x.com/jackleeio)｜[Conflux DAO](https://x.com/Confl
 
 ## 合约
 
-[可暂停代币: ERC20WithPausable.sol](../src/ERC20/ERC20WithPausable.sol)
+[可暂停代币: ERC20WithPausable.sol](../../src/ERC20/ERC20WithPausable.sol)
 
 ## 测试
 

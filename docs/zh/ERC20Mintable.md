@@ -12,7 +12,7 @@ Twitter: [Jack Lee](https://x.com/jackleeio)｜[Conflux DAO](https://x.com/Confl
 
 ## 合约
 
-[可增发代币: ERC20Mintable.sol](../src/ERC20/ERC20Mintable.sol)
+[可增发代币: ERC20Mintable.sol](../../src/ERC20/ERC20Mintable.sol)
 
 ## 测试
 

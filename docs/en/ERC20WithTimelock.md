@@ -12,7 +12,7 @@ Timelock tokens are a special type of ERC20 token that allows tokens to be locke
 
 ## Contract
 
-[Timelock Token: ERC20WithTimelock.sol](../src/ERC20/ERC20WithTimelock.sol)
+[Timelock Token: ERC20WithTimelock.sol](../../src/ERC20/ERC20WithTimelock.sol)
 
 ## Testing
 

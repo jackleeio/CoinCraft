@@ -12,7 +12,7 @@ Twitter: [Jack Lee](https://x.com/jackleeio)｜[Conflux DAO](https://x.com/Confl
 
 ## 合约
 
-[时间锁定代币: ERC20WithTimelock.sol](../src/ERC20/ERC20WithTimelock.sol)
+[时间锁定代币: ERC20WithTimelock.sol](../../src/ERC20/ERC20WithTimelock.sol)
 
 ## 测试
 

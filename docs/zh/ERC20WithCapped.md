@@ -12,7 +12,7 @@ Twitter: [Jack Lee](https://x.com/jackleeio)｜[Conflux DAO](https://x.com/Confl
 
 ## 合约
 
-[封顶代币: ERC20WithCapped.sol](../src/ERC20/ERC20WithCapped.sol)
+[封顶代币: ERC20WithCapped.sol](../../src/ERC20/ERC20WithCapped.sol)
 
 ## 测试
 
