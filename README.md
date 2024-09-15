@@ -1,4 +1,6 @@
-# CoinCraft 花式发币法
+:globe_with_meridians:	**[中文](./README_ZH.md) / [English](./cache/README.md)** :globe_with_meridians:	
+
+# Coin Craft
 
 Twitter: [Jack Lee](https://x.com/jackleeio)｜[Conflux DAO](https://x.com/ConfluxDAO)
 
