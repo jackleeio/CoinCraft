@@ -69,16 +69,19 @@ contract ERC20WithTimelock is ERC20, Ownable {
         return _totalLocked; // Return the total locked tokens
     }
 
-    // Override the transfer function to include balance checks
+    // Override the transfer function to include balance checks and consider locked tokens
     function transfer(address to, uint256 amount) public virtual override returns (bool) {
-        require(balanceOf(_msgSender()) >= amount, "Transfer amount exceeds balance"); // Check if the sender has enough balance
-        return super.transfer(to, amount); // Call the parent transfer function
+        address sender = _msgSender();
+        uint256 availableBalance = balanceOf(sender) - _lockedBalances[sender];
+        require(availableBalance >= amount, "Transfer amount exceeds available balance");
+        return super.transfer(to, amount);
     }
 
-    // Override the transferFrom function to include balance checks
+    // Override the transferFrom function to include balance checks and consider locked tokens
     function transferFrom(address from, address to, uint256 amount) public virtual override returns (bool) {
-        require(balanceOf(from) >= amount, "Transfer amount exceeds balance"); // Check if the sender has enough balance
-        return super.transferFrom(from, to, amount); // Call the parent transferFrom function
+        uint256 availableBalance = balanceOf(from) - _lockedBalances[from];
+        require(availableBalance >= amount, "Transfer amount exceeds available balance");
+        return super.transferFrom(from, to, amount);
     }
 
     // Override the balanceOf function to include locked balances
