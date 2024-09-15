@@ -1,6 +1,6 @@
 :globe_with_meridians:	**[中文](https://github.com/jackleeio/CoinCraft/tree/main/README_ZH.md) / [English](https://github.com/jackleeio/CoinCraft/tree/main/Languages/en/README.md)** :globe_with_meridians:	
 
-# Coin Craft
+# Coin Craft 铸币工艺
 
 Twitter: [Jack Lee](https://x.com/jackleeio)｜[Conflux DAO](https://x.com/ConfluxDAO)
 
@@ -10,9 +10,9 @@ Twitter: [Jack Lee](https://x.com/jackleeio)｜[Conflux DAO](https://x.com/Confl
 
 ---
 
-本仓库研究代币发行技术和经济模型。它是一个基于 OpenZeppelin 的代币合约库，配合 Forge 工具链快速创建各种经济模型代币。
+本仓库研究代币发行工艺和经济模型。它是一个基于 OpenZeppelin 的代币合约库，配合 Forge 工具链快速创建各种经济模型代币。
 
-## 发行 ERC20 代币
+## ERC20 代币
 
 - [固定供应代币](./docs/zh/ERC20FixedSupply.md)
 - [可增发代币](./docs/zh/ERC20Mintable.md)

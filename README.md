@@ -1,6 +1,6 @@
 :globe_with_meridians:	**[中文](./README_ZH.md) / [English](./cache/README.md)** :globe_with_meridians:	
 
-# Coin Craft
+# Coin Craft 铸币工艺
 
 Twitter: [Jack Lee](https://x.com/jackleeio)｜[Conflux DAO](https://x.com/ConfluxDAO)
 
