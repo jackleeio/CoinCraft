@@ -17,3 +17,4 @@ This repository studies token issuance techniques and economic models. It is a t
 - [Burnable Token](./docs/ERC20Burnable.md)
 - [Capped Token](./docs/ERC20WithCapped.md)
 - [Pausable Token](./docs/ERC20WithPausable.md)
+- [Timelock Token](./docs/ERC20WithTimelock.md)
