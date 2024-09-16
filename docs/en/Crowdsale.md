@@ -8,11 +8,11 @@ All code and tutorials are open source on GitHub: https://github.com/jackleeio/C
 
 ---
 
-The Crowdsale contract is based on ERC20 tokens, allowing project teams to raise funds by selling tokens. This contract supports fixed supply tokens and provides flexible settings for crowdsale parameters.
+The Crowdsale contract allows project teams to raise funds by selling ERC20 tokens. This contract supports fixed supply tokens and provides flexible settings for crowdsale parameters.
 
 ## Contracts
 
-[Crowdsale Contract: ERC20Crowdsale.sol](../../src/ERC20/ERC20Crowdsale.sol)
+[Crowdsale Contract: Crowdsale.sol](../../src/ERC20/Crowdsale.sol)
 
 ## Testing
 

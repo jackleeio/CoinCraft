@@ -8,11 +8,13 @@ Twitter: [Jack Lee](https://x.com/jackleeio)｜[Conflux DAO](https://x.com/Confl
 
 ---
 
-众筹合约是基于ERC20代币的合约，允许项目方通过销售代币来筹集资金。该合约支持固定供应量的代币，并提供灵活的众筹参数设置。
+# Start of Selection
+众筹合约允许项目方通过销售ERC20代币来筹集资金。该合约支持固定供应量的代币，并提供灵活的众筹参数设置。
+
 
 ## 合约
 
-[众筹合约: ERC20Crowdsale.sol](../../src/ERC20/ERC20Crowdsale.sol)
+[众筹合约: Crowdsale.sol](../../src/ERC20/Crowdsale.sol)
 
 ## 测试
 
@@ -37,7 +39,7 @@ SimpleCrowdsale 合约继承自 Ownable。以下是主要的方法调用:
 
 ## 部署脚本
 
-`ERC20Crowdsale.s.sol`脚本用于部署代币合约和众筹合约。它设置了以下参数：
+`Crowdsale.s.sol`脚本用于部署代币合约和众筹合约。它设置了以下参数：
 
 - 初始代币供应量：10,000,000 CRAFT
 - 众筹分配量：1,000,000 CRAFT

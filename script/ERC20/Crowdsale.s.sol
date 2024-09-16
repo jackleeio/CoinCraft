@@ -2,7 +2,7 @@
 pragma solidity ^0.8.24;
 
 import "forge-std/Script.sol";
-import "../../src/ERC20/ERC20Crowdsale.sol";
+import "../../src/ERC20/Crowdsale.sol";
 import "../../src/ERC20/ERC20FixedSupply.sol";
 
 contract DeployERC20Crowdsale is Script {
