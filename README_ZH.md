@@ -1,12 +1,12 @@
-:globe_with_meridians:	**[中文](https://github.com/jackleeio/CoinCraft/tree/main/README_ZH.md) / [English](https://github.com/jackleeio/CoinCraft/tree/main/Languages/en/README.md)** :globe_with_meridians:	
+:globe_with_meridians:	**[中文](./README_ZH.md) / [English](./README.md)** :globe_with_meridians:	
 
-# Coin Craft 铸币工艺
+# Token Craft 铸币工艺
 
 Twitter: [Jack Lee](https://x.com/jackleeio)｜[Conflux DAO](https://x.com/ConfluxDAO)
 
 社区: [JackLee.io](https://jacklee.io/) ｜[Conflux Forum](https://forum.conflux.fun/)
 
-所有代码和教程都在 GitHub 上开源: https://github.com/jackleeio/CoinCraft
+所有代码和教程都在 GitHub 上开源: https://github.com/jackleeio/TokenCraft
 
 ---
 

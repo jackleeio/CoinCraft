@@ -1,12 +1,12 @@
 :globe_with_meridians:	**[中文](./README_ZH.md) / [English](./cache/README.md)** :globe_with_meridians:	
 
-# Coin Craft
+# Token Craft
 
 Twitter: [Jack Lee](https://x.com/jackleeio)｜[Conflux DAO](https://x.com/ConfluxDAO)
 
 Community: [JackLee.io](https://jacklee.io/) ｜[Conflux Forum](https://forum.conflux.fun/)
 
-All code and tutorials are open source on GitHub: https://github.com/jackleeio/CoinCraft
+All code and tutorials are open source on GitHub: https://github.com/jackleeio/TokenCraft
 
 ---
 
