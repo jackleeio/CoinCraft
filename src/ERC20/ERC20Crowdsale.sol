@@ -8,22 +8,22 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 contract SimpleCrowdsale is Ownable {
     using SafeERC20 for IERC20;
 
-    // 代币合约地址
+    // Token contract address
     IERC20 public token;
     
-    // 代币价格(每个代币多少wei)
+    // Token price (how much wei per token)
     uint256 public rate;
     
-    // 筹款钱包地址
+    // Fundraising wallet address
     address payable public wallet;
     
-    // 已售出的代币数量
+    // Number of tokens sold
     uint256 public tokensSold;
 
-    // 众筹开始时间
+    // Crowdsale start time
     uint256 public openingTime;
     
-    // 众筹结束时间  
+    // Crowdsale end time  
     uint256 public closingTime;
 
     constructor(
@@ -46,7 +46,7 @@ contract SimpleCrowdsale is Ownable {
         closingTime = _closingTime;
     }
 
-    // 购买代币
+    // Buy tokens
     function buyTokens() public payable {
         uint256 weiAmount = msg.value;
         _preValidatePurchase(weiAmount);
@@ -61,44 +61,44 @@ contract SimpleCrowdsale is Ownable {
         emit TokensPurchased(msg.sender, weiAmount, tokens);
     }
 
-    // 提取未售出的代币
+    // Withdraw unsold tokens
     function withdrawTokens() public onlyOwner {
         uint256 unsold = token.balanceOf(address(this));
         token.safeTransfer(owner(), unsold);
     }
 
-    // 检查众筹是否开始
+    // Check if the crowdsale has started
     function hasCrowdsaleStarted() public view returns (bool) {
         return block.timestamp >= openingTime;
     }
 
-    // 检查众筹是否结束
+    // Check if the crowdsale has ended
     function hasCrowdsaleEnded() public view returns (bool) {
         return block.timestamp > closingTime;
     }
 
-    // 内部函数: 验证购买
+    // Internal function: Validate purchase
     function _preValidatePurchase(uint256 _weiAmount) internal view {
         require(msg.sender != address(0), "Purchaser cannot be the zero address");
         require(_weiAmount != 0, "Wei amount cannot be zero");
         require(hasCrowdsaleStarted() && !hasCrowdsaleEnded(), "Crowdsale is not active");
     }
 
-    // 内部函数: 计算代币数量
+    // Internal function: Calculate token amount
     function _getTokenAmount(uint256 _weiAmount) internal view returns (uint256) {
         return _weiAmount * rate;
     }
 
-    // 内部函数: 处理购买
+    // Internal function: Process purchase
     function _processPurchase(address _beneficiary, uint256 _tokenAmount) internal {
         token.safeTransfer(_beneficiary, _tokenAmount);
     }
 
-    // 内部函数: 转发资金
+    // Internal function: Forward funds
     function _forwardFunds() internal {
         wallet.transfer(msg.value);
     }
 
-    // 事件: 代币购买
+    // Event: Token purchase
     event TokensPurchased(address indexed purchaser, uint256 value, uint256 amount);
 }

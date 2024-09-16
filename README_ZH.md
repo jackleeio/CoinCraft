@@ -20,3 +20,4 @@ Twitter: [Jack Lee](https://x.com/jackleeio)｜[Conflux DAO](https://x.com/Confl
 - [封顶代币](./docs/zh/ERC20WithCapped.md)
 - [可暂停代币](./docs/zh/ERC20WithPausable.md)
 - [时间锁代币](./docs/zh/ERC20WithTimelock.md)
+- [众筹合约](./docs/zh/Crowdsale.md)
