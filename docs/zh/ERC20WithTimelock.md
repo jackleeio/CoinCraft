@@ -4,7 +4,7 @@ Twitter: [Jack Lee](https://x.com/jackleeio)｜[Conflux DAO](https://x.com/Confl
 
 社区: [JackLee.io](https://jacklee.io/) ｜[Conflux Forum](https://forum.conflux.fun/)
 
-所有代码和教程都在 GitHub 上开源: https://github.com/jackleeio/CoinCraft
+所有代码和教程都在 GitHub 上开源: https://github.com/jackleeio/TokenCraft
 
 ---
 
