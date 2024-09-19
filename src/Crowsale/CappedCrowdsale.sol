@@ -75,10 +75,6 @@ contract CappedCrowdsale is Ownable {
     }
 
     function _preValidatePurchase(uint256 _weiAmount) internal view {
-        require(
-            msg.sender != address(0),
-            "Purchaser cannot be the zero address"
-        );
         require(_weiAmount != 0, "Wei amount cannot be zero");
         require(
             hasCrowdsaleStarted() && !hasCrowdsaleEnded(),
