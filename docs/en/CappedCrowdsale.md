@@ -14,7 +14,7 @@ The `CappedCrowdsale` contract allows project teams to raise funds by selling ER
 
 ## Contract
 
-[CappedCrowdsale Contract: CappedCrowdsale.sol](../../src/Crowdsale/CappedCrowdsale.sol)
+[CappedCrowdsale Contract: CappedCrowdsale.sol](../../src/Crowsale/CappedCrowdsale.sol)
 
 ## Testing
 
