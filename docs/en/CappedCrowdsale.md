@@ -27,6 +27,8 @@ Tests should cover the following scenarios:
 2. Validation of crowdsale start and end times
 3. Token purchase behavior
 4. Withdrawal of unsold tokens
+5. Enforcement of the cap on total tokens sold
+
 
 ## Method Calls
 
